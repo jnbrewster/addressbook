@@ -25,8 +25,6 @@ function list() {
 	}
 }
 
-/*Create a search function
-then call it passing "Jones"*/
 function search(lastName) {
   var contactsLength = contacts.length;
   for (var i = 0; i < contactsLength; i++) {
@@ -36,6 +34,21 @@ function search(lastName) {
   }
 
 }
+
+function add(firstName, lastName, email, phoneNumber){
+   contacts[contacts.length] = {
+   firstName: firstName,
+   lastName: lastName,
+   phoneNumber: phoneNumber,
+   email: email
+  }
+}
+
 search("Jones");
+add("bob","bobs","bob@bob.com", "123");
+list();
+
+
+
 
 
