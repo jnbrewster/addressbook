@@ -45,10 +45,5 @@ function add(firstName, lastName, email, phoneNumber){
 }
 
 search("Jones");
-add("bob","bobs","bob@bob.com", "123");
+add("Nestor","Haddaway","Whatislove@babydonthurt.me", "512—171653");
 list();
-
-
-
-
-
